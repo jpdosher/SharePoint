@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "welcome-react-client-side-solution",
+    "id": "085f6321-a321-4aea-be00-eed4329510c7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Welcome_react description"
+      },
+      "longDescription": {
+        "default": "Welcome_react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "welcome-react Feature",
+        "description": "The feature that activates elements of the welcome-react solution.",
+        "id": "190c115e-bd12-42d7-a77f-6cb4c81e1cdb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/welcome-react.sppkg"
+  }
+}

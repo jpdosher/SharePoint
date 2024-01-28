@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "63f88e3f-86f1-4d45-9229-fdf7615a10b1",
+  "alias": "HelloWorldWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "Hello World Web Part" },
+    "description": { "default": "HelloWorld description" },
+    "officeFabricIconFontName": "BirthdayCake",
+    "properties": {
+      "description": "BirthdayCake"
+    }
+  }]
+}
