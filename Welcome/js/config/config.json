@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/welcome/WelcomeWebPart.manifest.json"
         }
       ]
+    },
+    "viva-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vivaTest/VivaTestWebPart.js",
+          "manifest": "./src/webparts/vivaTest/VivaTestWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "WelcomeWebPartStrings": "lib/webparts/welcome/loc/{locale}.js"
+    "WelcomeWebPartStrings": "lib/webparts/welcome/loc/{locale}.js",
+    "VivaTestWebPartStrings": "lib/webparts/vivaTest/loc/{locale}.js"
   }
 }
